@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishq Patil — Portfolio | Computer Science & AI Student</title>
+    <!-- Google Fonts for Bold Display & Clean Body Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========================================
+         Navigation Bar
+         ======================================== -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="#home" class="nav-brand">
+                <span class="brand-text">TANISHQ PATIL</span>
+                <span class="brand-badge">©2026</span>
+            </a>
+
+            <!-- Pure CSS Responsive Hamburger Toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </label>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========================================
+             Hero Section
+             ======================================== -->
+        <section id="home" class="hero-section">
+            <!-- Decorative Crosshair Grid Markers inspired by reference -->
+            <div class="crosshair-marker crosshair-top-left" aria-hidden="true">+</div>
+            <div class="crosshair-marker crosshair-top-right" aria-hidden="true">+</div>
+            <div class="crosshair-marker crosshair-mid-left" aria-hidden="true">+</div>
+            <div class="crosshair-marker crosshair-mid-right" aria-hidden="true">+</div>
+            <div class="crosshair-marker crosshair-bottom-left" aria-hidden="true">+</div>
+
+            <!-- Faint Large Background Typographic Watermark -->
+            <div class="hero-watermark" aria-hidden="true">TANISHQ</div>
+
+            <div class="hero-container">
+                <!-- Left Column: Tagline & Giant Title -->
+                <div class="hero-left-content">
+                    <p class="hero-tagline">
+                        UNDERGRADUATE AT SCALER SCHOOL OF TECHNOLOGY CRAFTING CLEAN, USER-CENTERED EXPERIENCES THROUGH COMPUTER SCIENCE &amp; ARTIFICIAL INTELLIGENCE.
+                    </p>
+
+                    <div class="hero-title-group">
+                        <span class="hero-year-badge">©2026</span>
+                        <h1 class="hero-main-title">TANISHQ</h1>
+                        <p class="hero-subtitle">COMPUTER SCIENCE &amp; AI STUDENT</p>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="hero-btn hero-btn-primary">View Projects</a>
+                        <a href="#contact" class="hero-btn hero-btn-secondary">Let's Connect</a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Picture at top right, followed downward by Active Build and Let's Talk -->
+                <div class="hero-right-column">
+                    <!-- Picture placed upper to active build card -->
+                    <div class="hero-portrait-wrapper">
+                        <div class="hero-portrait-glow" aria-hidden="true"></div>
+                        <div class="hero-portrait-card">
+                            <img src="profile.png" alt="Portrait photo of Tanishq Patil" class="hero-portrait-img">
+                        </div>
+                    </div>
+
+                    <!-- Active Build Card -->
+                    <div class="floating-badge-card floating-top-card">
+                        <div class="floating-preview-box">
+                            <span class="preview-dot"></span>
+                            <span class="preview-label">ACTIVE BUILD</span>
+                        </div>
+                        <div class="floating-badge-meta">
+                            <span class="badge-tag">✦ HTML &amp; CSS</span>
+                            <span class="badge-category">/Web Design</span>
+                        </div>
+                    </div>
+
+                    <!-- Let's Talk CTA Card -->
+                    <a href="#contact" class="floating-talk-card">
+                        <div class="talk-avatar-box">
+                            <img src="profile.png" alt="Tanishq Patil avatar" class="talk-avatar-img">
+                        </div>
+                        <div class="talk-text-box">
+                            <span class="talk-tagline">Let's Talk</span>
+                            <span class="talk-name">Tanishq Patil</span>
+                            <span class="talk-role">CS &amp; AI Student</span>
+                        </div>
+                        <div class="talk-arrow-btn" aria-hidden="true">↗</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             Tech Stack & Marquee Strip
+             ======================================== -->
+        <section class="ticker-strip" aria-label="Core Foundations">
+            <div class="ticker-container">
+                <span class="ticker-title">CORE FOUNDATIONS</span>
+                <div class="ticker-tags">
+                    <span class="ticker-item">HTML5</span>
+                    <span class="ticker-item">CSS3</span>
+                    <span class="ticker-item">FLEXBOX</span>
+                    <span class="ticker-item">CSS GRID</span>
+                    <span class="ticker-item">RESPONSIVE DESIGN</span>
+                    <span class="ticker-item">SEMANTIC WEB</span>
+                    <span class="ticker-item">COMPUTER SCIENCE</span>
+                    <span class="ticker-item">ARTIFICIAL INTELLIGENCE</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             About Section (Bento Grid)
+             ======================================== -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">WHY CHOOSE ME</span>
+                    <h2 class="section-title">FOCUSED ON DESIGN THAT DELIVERS RESULTS</h2>
+                </div>
+
+                <div class="bento-grid">
+                    <!-- Stat Card 1 -->
+                    <div class="bento-card bento-stat-card">
+                        <span class="bento-label">• ACADEMIC BACKGROUND</span>
+                        <div class="bento-stat-number">Scaler</div>
+                        <p class="bento-stat-desc">
+                            Undergraduate student at Scaler School of Technology focusing on core CS fundamentals and applied AI concepts.
+                        </p>
+                    </div>
+
+                    <!-- Stat Card 2 -->
+                    <div class="bento-card bento-stat-card">
+                        <span class="bento-label">• CORE EXPERTISE</span>
+                        <div class="bento-stat-number">100%</div>
+                        <p class="bento-stat-desc">
+                            Dedication to building accessible, clean, and responsive user interfaces with semantic HTML &amp; modern CSS.
+                        </p>
+                    </div>
+
+                    <!-- Highlight Card 3 -->
+                    <div class="bento-card bento-quote-card">
+                        <div class="quote-header">
+                            <span class="quote-star">★ ★ ★ ★ ★</span>
+                            <span class="quote-tag">5.0 / Clean Code</span>
+                        </div>
+                        <blockquote class="quote-text">
+                            "Clean code and thoughtful layouts are the foundation of great software. Every line of HTML and CSS should be purposeful and accessible."
+                        </blockquote>
+                        <div class="quote-author">
+                            <span class="author-name">Tanishq Patil</span>
+                            <span class="author-title">Undergrad Student &amp; Developer</span>
+                        </div>
+                    </div>
+
+                    <!-- Highlight Card 4: Visual Aesthetic Card -->
+                    <div class="bento-card bento-visual-card">
+                        <div class="visual-glow-frame">
+                            <div class="visual-tag-badge">FAST &amp; RELIABLE</div>
+                            <h3 class="visual-title">Modern Web Workflows</h3>
+                            <p class="visual-desc">
+                                Implementing responsive grid architectures and smooth CSS transitions without unnecessary dependencies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             Skills Section
+             ======================================== -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">SKILLS &amp; TOOLKIT</span>
+                    <h2 class="section-title">WHAT I WORK WITH</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Skill Card 1: HTML -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <span class="skill-icon">&lt;/&gt;</span>
+                        </div>
+                        <h3 class="skill-name">HTML5</h3>
+                        <p class="skill-desc">
+                            Structuring meaningful, accessible documents using semantic HTML elements, forms, and search-friendly markup.
+                        </p>
+                        <ul class="skill-topics">
+                            <li>Semantic Tags</li>
+                            <li>Page Hierarchy</li>
+                            <li>Web Accessibility (a11y)</li>
+                            <li>Forms &amp; Input Validation</li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill Card 2: CSS -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <span class="skill-icon">#</span>
+                        </div>
+                        <h3 class="skill-name">CSS3</h3>
+                        <p class="skill-desc">
+                            Designing responsive, eye-catching layouts with modern Flexbox, CSS Grid, custom properties, and keyframe animations.
+                        </p>
+                        <ul class="skill-topics">
+                            <li>Flexbox &amp; CSS Grid</li>
+                            <li>Responsive Media Queries</li>
+                            <li>Keyframes &amp; Transitions</li>
+                            <li>Modern Box Model</li>
+                        </ul>
+                    </div>
+
+                    <!-- Skill Card 3: Computer Science & AI -->
+                    <div class="skill-card">
+                        <div class="skill-icon-box">
+                            <span class="skill-icon">◈</span>
+                        </div>
+                        <h3 class="skill-name">Computer Science &amp; AI</h3>
+                        <p class="skill-desc">
+                            Core coursework at Scaler School of Technology covering algorithmic thinking, data structures, and AI foundations.
+                        </p>
+                        <ul class="skill-topics">
+                            <li>Problem Solving</li>
+                            <li>Algorithmic Thinking</li>
+                            <li>Artificial Intelligence Basics</li>
+                            <li>Code Organization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             Projects Section
+             ======================================== -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">PORTFOLIO WORK</span>
+                    <h2 class="section-title">FEATURED PROJECTS</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card">
+                        <div class="project-thumbnail project-thumb-orange">
+                            <div class="project-thumb-badge">FEATURED</div>
+                            <div class="project-thumb-content">
+                                <span class="thumb-decor">&lt;HTML + CSS&gt;</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">PORTFOLIO WEBSITE</span>
+                            <h3 class="project-title">Personal Student Portfolio</h3>
+                            <p class="project-description">
+                                A clean, responsive portfolio website built with pure semantic HTML5 and modern CSS3, reflecting the bold visual language of contemporary web design.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3</span>
+                                <span class="tech-pill">Flexbox</span>
+                                <span class="tech-pill">Responsive</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="[Add your Live Demo link]" class="project-btn project-btn-primary">Live Demo</a>
+                                <a href="[Add your GitHub link]" class="project-btn project-btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card">
+                        <div class="project-thumbnail project-thumb-dark">
+                            <div class="project-thumb-badge">LAYOUT EXPERIMENT</div>
+                            <div class="project-thumb-content">
+                                <span class="thumb-decor">[ GRID &amp; FLEXBOX ]</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">UI EXPERIMENT</span>
+                            <h3 class="project-title">Responsive Bento Grid Showcase</h3>
+                            <p class="project-description">
+                                An exploratory web layout crafted with CSS Grid and Flexbox, demonstrating adaptable card proportions, subtle hover transitions, and mobile-first responsiveness.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS Grid</span>
+                                <span class="tech-pill">Transitions</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="[Add your Live Demo link]" class="project-btn project-btn-primary">Live Demo</a>
+                                <a href="[Add your GitHub link]" class="project-btn project-btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card">
+                        <div class="project-thumbnail project-thumb-warm">
+                            <div class="project-thumb-badge">WEB &amp; AI</div>
+                            <div class="project-thumb-content">
+                                <span class="thumb-decor">◈ CS &amp; AI ◈</span>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <span class="project-category">CONCEPT LANDING PAGE</span>
+                            <h3 class="project-title">AI &amp; Smart Visuals Landing Page</h3>
+                            <p class="project-description">
+                                A concept landing page highlighting AI immersion and smart visuals, built with custom keyframe animations, sleek typography, and zero JavaScript overhead.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3</span>
+                                <span class="tech-pill">Animations</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="[Add your Live Demo link]" class="project-btn project-btn-primary">Live Demo</a>
+                                <a href="[Add your GitHub link]" class="project-btn project-btn-secondary">GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             Education Section
+             ======================================== -->
+        <section id="education" class="education-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-badge">ACADEMIC JOURNEY</span>
+                    <h2 class="section-title">EDUCATION</h2>
+                </div>
+
+                <div class="education-card-wrapper">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div>
+                                <span class="education-institution">SCALER SCHOOL OF TECHNOLOGY</span>
+                                <h3 class="education-degree">Undergraduate in Computer Science &amp; Artificial Intelligence</h3>
+                            </div>
+                            <span class="education-status-badge">CURRENTLY PURSUING</span>
+                        </div>
+                        <p class="education-details">
+                            Undergraduate program focused on hands-on software development, core computer science principles, web technologies, and modern artificial intelligence foundations.
+                        </p>
+                        <div class="education-highlights">
+                            <span class="highlight-pill">• Data Structures &amp; Problem Solving</span>
+                            <span class="highlight-pill">• Frontend Development (HTML &amp; CSS)</span>
+                            <span class="highlight-pill">• Artificial Intelligence Foundations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================
+             Contact Section
+             ======================================== -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="contact-card-main">
+                    <div class="contact-info-col">
+                        <span class="section-badge section-badge-light">GET IN TOUCH</span>
+                        <h2 class="contact-title">LET'S BUILD SOMETHING TOGETHER</h2>
+                        <p class="contact-description">
+                            I am always open to discussing new web projects, learning opportunities, or technology collaborations. Connect with me directly!
+                        </p>
+
+                        <div class="contact-links-list">
+                            <div class="contact-link-item">
+                                <span class="link-label">EMAIL:</span>
+                                <a href="mailto:[Add your email]" class="link-value">[Add your email]</a>
+                            </div>
+                            <div class="contact-link-item">
+                                <span class="link-label">GITHUB:</span>
+                                <a href="[Add your GitHub link]" class="link-value" target="_blank" rel="noopener noreferrer">[Add your GitHub link]</a>
+                            </div>
+                            <div class="contact-link-item">
+                                <span class="link-label">LINKEDIN:</span>
+                                <a href="[Add your LinkedIn link]" class="link-value" target="_blank" rel="noopener noreferrer">[Add your LinkedIn link]</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pure HTML5 Contact Form (No JavaScript) -->
+                    <div class="contact-form-col">
+                        <form action="mailto:[Add your email]" method="POST" enctype="text/plain" class="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name" class="form-label">Your Name</label>
+                                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Alex Sharma" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-email" class="form-label">Your Email</label>
+                                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. alex@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contact-message" class="form-label">Message</label>
+                                <textarea id="contact-message" name="message" rows="4" class="form-textarea" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="form-submit-btn">
+                                Send Message <span>↗</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========================================
+         Footer
+         ======================================== -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="footer-name">TANISHQ PATIL</span>
+                <span class="footer-sub">CS &amp; AI Undergrad • Scaler School of Technology</span>
+            </div>
+
+            <ul class="footer-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="footer-bottom">
+                <p>© 2026 Tanishq Patil. Built with semantic HTML &amp; CSS.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
